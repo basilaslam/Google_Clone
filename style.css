@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.nav_items{
+    display: flex;
+    float: right;
+    list-style:none;
+    color: #FFFFFF;
+    gap:10px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.nav_item img{
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+}
+#Dot{
+    margin-top: 4px;
+    width: 40px;
+    height: 40px;
+
+}
+.circle{
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+
+.main{
+    position: absolute;
+    top: 300px;
+    left: 37%;
+}
+
+.hero img{
+    margin-left: 104px;
+    width: 360px;
+    margin-bottom: 24px;
+}
+    
+
+.input{
+    display: flex;
+    width: 580px;
+    border-radius: 30px;
+    border: 1px solid rgba(128,128,128,.3);
+    height: 40px;
+}
+
+.input:hover{
+    background-color: #303134;
+}
+
+.input input{
+    font-size: 16px;
+    color: #FFF;
+    background: transparent;
+    border: none;
+    margin-left: 5px;
+    width: 460px;
+}
+.input input:focus{
+    outline: none;
+}
+
+
+.search_logo{
+    margin-left: 12px;
+    margin-top: 10px;
+    color: #9AA0A6;
+}
+.search_logo span{
+    font-size: 20px;
+}
+
+.voice_search{
+    width: 25px;
+    float: right;
+    margin-top: 3px;
+    margin-left: 35px;
+}
+
+.buttons{
+    margin-left: 175px;
+    margin-top: 20px;
+}
+.buttons button{
+    background-color: #303134;
+    color: #E8EAED;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.languages{
+    display: flex;
+    color: #E8EAED;
+    font-size: 15px;
+}
+
+
+.languages .right{
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+.languages .right a{
+    color: #8ab4f8;
+}
+a{
+    text-decoration: none;
+}
+.languages .right a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #171717;
+    position: absolute;
+    top: 845px;
+    width: 100%;
+    color: #E8EAED;
+    font-size: small;
+}
+
+footer .top{
+    height: 50px;
+    border-bottom: 1px solid rgba(128,128,128,.3);
+}
+
+footer .top p{
+    padding-top: 10px;
+    margin-left: 18px;
+}
+
+
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.footer_list{
+    display: flex;
+    list-style: none;
+
+}
+.footer_list li{
+    margin-left: 10px;
+}
+
+.left_list{
+    margin-left: -35px;
+
+}
+.right_list{
+    margin-right: 30px;
+}
