@@ -23,6 +23,10 @@ body{
     height: 30px;
     color: #FFFFFF;
 }
+.nav_item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 #Dot{
     margin-top: 4px;
     width: 40px;
