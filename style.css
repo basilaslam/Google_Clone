@@ -168,3 +168,8 @@ footer .bottom{
 .right_list{
     margin-right: 30px;
 }
+
+.bottom li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
